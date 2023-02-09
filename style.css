@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: rgb(59, 132, 216);
+}
+.container{
+    background-color: whitesmoke;
+    width: 30rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 10px 30px rgb(53, 53, 233);
+}
+.agebox{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    padding: 0 20px 0 20px;
+    color: rgb(59, 132, 216);
+}
+.inputfield{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    border-color: rgb(59, 132, 216);
+}
+.h1{
+    border-bottom: 2px solid rgb(185, 185, 185);
+    width: 25vw;
+    text-align: center;
+    color: navy;
+}
+#btn{
+    background-color: rgb(43, 98, 161);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+.output{
+    text-align: center;
+}
+#display{
+    color: red;
+}
+#final{
+    font-size: 20px;
+    color: navy;
+}
